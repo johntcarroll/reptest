@@ -1,5 +1,5 @@
 <?php
 
-class Mech extends ActiveRecord\Model {
-
+class Mech extends ActiveRecord\ReplicationModel {
+    
 }
