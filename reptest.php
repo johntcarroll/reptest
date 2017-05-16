@@ -1,9 +1,9 @@
 <?php
 include "controller/config.php";
-$new = new Car();
-$new->make = "saab";
-$new->model = "95";
-$new->save();
+//$new = new Car();
+//$new->make = "dodge";
+//$new->model = "ram";
+//$new->save();
 $query = Car::all();
 print_r($query);
 
