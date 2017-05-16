@@ -1,7 +1,5 @@
 <?php
-namespace ActiveRecord;
-
-abstract class ReplicationModel extends Model {
+abstract class ReplicationModel extends ActiveRecord\Model {
 
     // Specify the default connection for this model
     static $connection = 'read';
