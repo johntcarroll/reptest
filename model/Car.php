@@ -1,5 +1,5 @@
 <?php
 
-class Car extends ReplicationModel  {
+class Car extends ActiveRecord\ReplicationModel  {
 
 }
