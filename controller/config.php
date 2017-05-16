@@ -1,7 +1,7 @@
 <?php
 //File for connecting to Database
 require_once __DIR__ . "/../php-activerecord/ActiveRecord.php";
-require_once "/home/ec2-user/location_config.php";
+require_once __DIR__ . "../../../../../home/ec2-user/location_config.php";
 
 ActiveRecord\Config::initialize(function($cfg)
  {
