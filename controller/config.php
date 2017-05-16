@@ -7,5 +7,5 @@ ActiveRecord\Config::initialize(function($cfg)
  {
     $modelDir = substr(__FILE__, 0, -21) . "model";
      $cfg->set_model_directory($modelDir);
-     $cfg->set_connections($location_connections);
+     $cfg->set_connections($local_connections);
  });
